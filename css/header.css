@@ -1,11 +1,14 @@
 .header {
 	flex: 1 0 100svh;
 	/* border: 10px solid green; */
-	padding-top: 20vh;
+	padding-top: 20svh;
 	background: url(../assets/img/nightCity_sm_compress.jpg);
 
 	background-size: cover, contain;
 	background-repeat: no-repeat;
+
+	/* display: grid; */
+	/* grid-template-rows: 5rem auto 5rem; */
 }
 .header__grid {
 	/* background-color: bisque; */
