@@ -30,6 +30,12 @@
 		display: block;
 		letter-spacing: normal;
 	}
+	.section {
+		display: block;
+	}
+	.section .section__card {
+		margin-block: 1rem;
+	}
 }
 @media (orientation: portrait) {
 	.header__grid {
@@ -62,5 +68,11 @@
 		width: 100%;
 		display: block;
 		letter-spacing: normal;
+	}
+	.section {
+		display: block;
+	}
+	.section .section__card {
+		margin-block: 1rem;
 	}
 }
