@@ -3,6 +3,7 @@
 		aspect-ratio: unset;
 		gap: 1rem;
 		padding-block: 3rem;
+		width: 85%;
 	}
 	.header__pipesImage {
 		position: unset;
@@ -35,6 +36,7 @@
 		aspect-ratio: unset;
 		gap: 1rem;
 		padding-block: 3rem;
+		width: 85%;
 	}
 	.header__pipesImage {
 		position: unset;
