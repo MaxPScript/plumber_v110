@@ -30,18 +30,6 @@
 		display: block;
 		letter-spacing: normal;
 	}
-	.section {
-		display: block;
-		position: relative;
-	}
-	.section .section__card {
-		margin-block: 1rem;
-	}
-	.footer {
-		position: absolute;
-		bottom: 3rem;
-		width: 90%;
-	}
 }
 @media (orientation: portrait) {
 	.header__grid {
@@ -74,17 +62,5 @@
 		width: 100%;
 		display: block;
 		letter-spacing: normal;
-	}
-	.section {
-		display: block;
-		position: relative;
-	}
-	.section .section__card {
-		margin-block: 1rem;
-	}
-	.footer {
-		position: absolute;
-		bottom: 3rem;
-		left: 5%;
 	}
 }
