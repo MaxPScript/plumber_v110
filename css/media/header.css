@@ -11,10 +11,10 @@
 		/* margin-top: 2rem; */
 	}
 	.header__grid h1 {
-		/* font-size: 3rem; */
+		font-size: 2rem;
 	}
 	.header__grid h3 {
-		font-size: 1.9rem;
+		font-size: 1.2rem;
 		letter-spacing: normal;
 	}
 	.header__callLink {
@@ -43,10 +43,10 @@
 		/* margin-top: 2rem; */
 	}
 	.header__grid h1 {
-		font-size: 3rem;
+		font-size: 2rem;
 	}
 	.header__grid h3 {
-		font-size: 1.9rem;
+		font-size: 1.2rem;
 		letter-spacing: normal;
 	}
 	.header__callLink {
