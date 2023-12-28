@@ -1,0 +1,40 @@
+.footer {
+	/* flex: 1 0 80svh; */
+	border: 2px solid orange;
+	grid-column: 1/4;
+	padding: 2vw;
+	padding-top: 0;
+	margin-top: auto;
+
+	letter-spacing: 0.02em;
+
+	/* background-color: rgba(0, 0, 70, 0.2);
+	backdrop-filter: blur(2px);
+	border: 1px solid rgba(255, 255, 255, 0.25);
+	box-shadow: inset 2px 2px 400px hsl(200deg 50% 0% / 0.5); */
+
+	/* background: url(../assets/img/bluesteel.jpg); */
+	/* background-size: cover; */
+	/* background-size: contain; */
+	/* background-repeat: no-repeat; */
+}
+.footer h2 {
+	text-align: unset;
+}
+.footer ul {
+	list-style-type: none;
+}
+.footer hr {
+	margin-block: 0.7rem;
+}
+.footer ul li {
+	display: flex;
+	gap: 0.5rem;
+	justify-content: space-between;
+}
+.footer ul li span:nth-child(1) {
+	flex: 1 0 40%;
+}
+.footer ul li span:nth-child(2) {
+	flex: 1 0 60%;
+}

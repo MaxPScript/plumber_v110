@@ -1,0 +1,64 @@
+@media (width < 730px) {
+	.header__grid {
+		aspect-ratio: unset;
+		gap: 1rem;
+		padding-block: 3rem;
+	}
+	.header__pipesImage {
+		position: unset;
+		width: 60%;
+		aspect-ratio: 3/2;
+		/* margin-top: 2rem; */
+	}
+	.header__grid h1 {
+		/* font-size: 3rem; */
+	}
+	.header__grid h3 {
+		font-size: 1.9rem;
+		letter-spacing: normal;
+	}
+	.header__callLink {
+		padding: 0;
+		font-size: 1.5rem;
+		width: 30%;
+		display: grid;
+	}
+	.header__callLink a {
+		margin-block: 0.5rem;
+		width: 100%;
+		display: block;
+		letter-spacing: normal;
+	}
+}
+@media (orientation: portrait) {
+	.header__grid {
+		aspect-ratio: unset;
+		gap: 1rem;
+		padding-block: 3rem;
+	}
+	.header__pipesImage {
+		position: unset;
+		width: 60%;
+		aspect-ratio: 3/2;
+		/* margin-top: 2rem; */
+	}
+	.header__grid h1 {
+		font-size: 3rem;
+	}
+	.header__grid h3 {
+		font-size: 1.9rem;
+		letter-spacing: normal;
+	}
+	.header__callLink {
+		padding: 0;
+		font-size: 1.5rem;
+		width: 30%;
+		display: grid;
+	}
+	.header__callLink a {
+		margin-block: 0.5rem;
+		width: 100%;
+		display: block;
+		letter-spacing: normal;
+	}
+}
