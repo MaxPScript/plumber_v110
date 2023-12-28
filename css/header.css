@@ -3,12 +3,14 @@
 	/* border: 10px solid green; */
 	/* padding-top: 20svh; */
 	background: url(../assets/img/nightCity_sm_compress.jpg);
-
+	background-position: center;
 	background-size: cover, contain;
 	background-repeat: no-repeat;
 
 	display: grid;
-	grid-template-rows: 2rem auto 5rem;
+	/* grid-template-rows: 6rem auto 5rem; */
+	grid-template-rows: calc(2rem + 8vmax) auto 5rem;
+	/* height: calc(2rem + 8vmax); */
 }
 .header__grid {
 	grid-row: 2/3;
