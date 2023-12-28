@@ -1,16 +1,17 @@
 .header {
 	flex: 1 0 100svh;
 	/* border: 10px solid green; */
-	padding-top: 20svh;
+	/* padding-top: 20svh; */
 	background: url(../assets/img/nightCity_sm_compress.jpg);
 
 	background-size: cover, contain;
 	background-repeat: no-repeat;
 
-	/* display: grid; */
-	/* grid-template-rows: 5rem auto 5rem; */
+	display: grid;
+	grid-template-rows: 2rem auto 5rem;
 }
 .header__grid {
+	grid-row: 2/3;
 	/* background-color: bisque; */
 	width: 70%;
 	margin: auto;
