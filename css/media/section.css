@@ -3,8 +3,11 @@
 		display: block;
 		position: relative;
 	}
-	.section .section__card {
+	.section__card {
 		margin-block: 1rem;
+	}
+	.section__card * {
+		text-align: unset;
 	}
 	.footer {
 		position: absolute;
@@ -17,8 +20,11 @@
 		display: block;
 		position: relative;
 	}
-	.section .section__card {
+	.section__card {
 		margin-block: 1rem;
+	}
+	.section__card * {
+		text-align: unset;
 	}
 	.footer {
 		position: absolute;
