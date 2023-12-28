@@ -16,7 +16,7 @@
 	}
 	.header__grid h3 {
 		/* font-size: 1.2rem; */
-		font-size: max(16px, 1.2rem);
+		font-size: max(18px, 1.2rem);
 		letter-spacing: normal;
 	}
 	.header__callLink {
@@ -50,7 +50,7 @@
 	}
 	.header__grid h3 {
 		/* font-size: 1.2rem; */
-		font-size: max(16px, 1.2rem);
+		font-size: max(18px, 1.2rem);
 		letter-spacing: normal;
 	}
 	.header__callLink {

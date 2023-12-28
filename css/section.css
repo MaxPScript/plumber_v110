@@ -87,7 +87,8 @@
 	/* text-align: center; */
 }
 .section__card p {
-	margin-bottom: 1rem;
+	/* margin-bottom: 1rem; */
+	margin-block: 1rem;
 }
 .section__card * {
 	text-align: center;

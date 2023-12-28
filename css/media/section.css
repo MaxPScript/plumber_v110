@@ -3,11 +3,19 @@
 		display: block;
 		position: relative;
 	}
+	.section h2 {
+		font-size: max(20px, 1.2rem);
+	}
 	.section__card {
 		margin-block: 1rem;
 	}
 	.section__card h3 {
+		font-size: max(18px, 1.2rem);
+	}
+	.section__card p {
 		font-size: max(16px, 1.2rem);
+		border-left: 3px inset whitesmoke;
+		padding-left: 0.5rem;
 	}
 	.section__card * {
 		text-align: unset;
@@ -26,11 +34,19 @@
 		display: block;
 		position: relative;
 	}
+	.section h2 {
+		font-size: max(20px, 1.2rem);
+	}
 	.section__card {
 		margin-block: 1rem;
 	}
 	.section__card h3 {
+		font-size: max(18px, 1.2rem);
+	}
+	.section__card p {
 		font-size: max(16px, 1.2rem);
+		border-left: 3px inset whitesmoke;
+		padding-left: 0.5rem;
 	}
 	.section__card * {
 		text-align: unset;
