@@ -6,6 +6,9 @@
 	.section__card {
 		margin-block: 1rem;
 	}
+	.section__card h3 {
+		font-size: max(16px, 1.2rem);
+	}
 	.section__card * {
 		text-align: unset;
 	}
@@ -13,6 +16,9 @@
 		position: absolute;
 		bottom: 3rem;
 		width: 90%;
+	}
+	.footer li {
+		font-size: max(16px, 1.2rem);
 	}
 }
 @media (orientation: portrait) {
@@ -23,6 +29,9 @@
 	.section__card {
 		margin-block: 1rem;
 	}
+	.section__card h3 {
+		font-size: max(16px, 1.2rem);
+	}
 	.section__card * {
 		text-align: unset;
 	}
@@ -30,5 +39,8 @@
 		position: absolute;
 		bottom: 3rem;
 		left: 5%;
+	}
+	.footer li {
+		font-size: max(16px, 1.2rem);
 	}
 }
