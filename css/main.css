@@ -40,5 +40,13 @@ body {
 	margin-left: 1rem;
 	border-radius: 0.2rem;
 	text-decoration: none;
-	background: darkgoldenrod;
+	/* background: darkgoldenrod; */
+	background-color: hsl(225 100% 5% / 1);
+	display: inline-flex;
+	/* justify-content: center; */
+	align-items: center;
+	gap: 0.5rem;
+}
+.copyright img {
+	width: 1rem;
 }
