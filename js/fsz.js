@@ -1,15 +1,21 @@
 log = console.log;
 
-const headers = document.querySelectorAll(".header__titles h1, h3");
+// const headers = document.querySelectorAll(".header__titles > h1,h3");
+const headers = document.querySelectorAll("h1, h2, h3");
+log(headers);
+// headers.forEach((el) => {
+// 	log(el.innerText);
+// });
 
 window.addEventListener("load", () => {
 	headers.forEach((el, index) => {
 		let span = document.createElement("span");
 		span.style = `
     position: absolute;
-    top: ${40 * index}px;
+    // top: ${40 * index}px;
     right: 0;
-    color: orange;
+    color: red;
+	// font-size
     letter-spacing: 1px;
 `;
 		let fsz = window.getComputedStyle(el).getPropertyValue("font-size");
@@ -24,7 +30,7 @@ window.addEventListener("load", () => {
 		//         letter-spacing: 1px;
 		// `;
 		span.textContent = `
-            ${toFixed}
+            ${el.nodeName} ${toFixed}
         `;
 		el.appendChild(span);
 	});

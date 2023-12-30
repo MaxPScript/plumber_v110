@@ -24,7 +24,7 @@
 	.footer {
 		position: absolute;
 		left: 5%;
-		bottom: 5rem;
+		bottom: 7rem;
 		width: 90%;
 	}
 	.footer li {
@@ -44,7 +44,7 @@
 		margin-block: 1rem;
 	}
 	.section__card h3 {
-		font-size: max(18px, 1.2rem);
+		/* font-size: max(18px, 1.2rem); */
 	}
 	.section__card p {
 		font-size: max(16px, 1.2rem);
@@ -57,10 +57,18 @@
 	.footer {
 		position: absolute;
 		left: 5%;
-		bottom: 5rem;
+		bottom: 7rem;
 		width: 90%;
 	}
 	.footer li {
 		font-size: max(16px, 1.2rem);
+	}
+}
+@media (orientation: portrait) and (height > 850px) {
+	.section {
+		padding-inline: 25vw;
+	}
+	.section__card {
+		margin-block: 3rem;
 	}
 }

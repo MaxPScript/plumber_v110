@@ -16,6 +16,7 @@
 	grid-row: 2/3;
 	/* background-color: bisque; */
 	width: 70%;
+	height: 100%;
 	margin: auto;
 	/* border: 10px solid rgb(0, 82, 0); */
 	aspect-ratio: 16/9;
@@ -111,6 +112,7 @@
 
 /* CALL LINK */
 .header__callLink {
+	max-width: 200px;
 	/* padding-block: 1vw; */
 	align-self: center;
 	position: relative;
