@@ -22,9 +22,9 @@
 		text-align: unset;
 	}
 	.footer {
-		position: absolute;
+		/* position: absolute; */
 		left: 5%;
-		bottom: 7rem;
+		/* bottom: 7rem; */
 		width: 90%;
 	}
 	.footer li {
@@ -55,9 +55,9 @@
 		text-align: unset;
 	}
 	.footer {
-		position: absolute;
+		/* position: absolute; */
 		left: 5%;
-		bottom: 7rem;
+		/* bottom: 7rem; */
 		width: 90%;
 	}
 	.footer li {

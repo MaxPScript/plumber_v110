@@ -27,9 +27,9 @@ body {
 	flex-direction: column;
 }
 .copyright {
-	position: absolute;
-	bottom: 1.5rem;
-	right: 1rem;
+	/* position: absolute; */
+	/* bottom: 1.5rem; */
+	/* right: 1rem; */
 	font-family: Arial, Helvetica, sans-serif;
 	letter-spacing: 0.05em;
 }

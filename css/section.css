@@ -1,5 +1,5 @@
 .section {
-	flex: 1 0 100dvh;
+	/* flex: 1 0 100dvh; */
 	/* border: 10px solid blue; */
 }
 .section {
@@ -8,7 +8,7 @@
 	grid-template-columns: repeat(3, 33.3%);
 	/* grid-template-rows: max-content auto; */
 	/* grid-template-rows: max-content auto min-content; */
-	grid-template-rows: max-content min-content 0.7fr;
+	grid-template-rows: max-content min-content;
 	column-gap: 1vw;
 	row-gap: 1rem;
 	padding-inline: 15vw;
