@@ -48,5 +48,9 @@
 		padding: 1rem;
 		display: flex;
 		gap: 1rem;
+		button {
+			padding-block: 0.3rem;
+			width: 6rem;
+		}
 	}
 }
