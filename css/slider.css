@@ -51,6 +51,25 @@
 		button {
 			padding-block: 0.3rem;
 			width: 6rem;
+			font-size: 1.5em;
+		}
+		.buttons_1_left::before {
+			content: "<";
+			position: absolute;
+			inset: 0;
+			background-color: bisque;
+			/* display: grid; */
+			/* place-content: center; */
+			align-content: center;
+		}
+		.buttons_1_right::before {
+			content: ">";
+			position: absolute;
+			inset: 0;
+			background-color: bisque;
+			/* display: grid; */
+			/* place-content: center; */
+			align-content: center;
 		}
 	}
 }
