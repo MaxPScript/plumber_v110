@@ -49,6 +49,7 @@ export function slideNow(slider, handlers, data) {
 		} else {
 			branchL ? (pointerRight = len - pointerLeft) : null;
 			pointerRight++;
+			pointerRight %= 3;
 			//
 			items.forEach((_, index) => {
 				index === len - pointerRight
