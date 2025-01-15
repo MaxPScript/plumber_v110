@@ -10,7 +10,8 @@
 .slider {
 	display: grid;
 	place-content: center;
-	gap: 2vw;
+	place-items: center;
+	/* gap: 2vw; */
 	width: 90vw;
 	margin: auto;
 	.slider_1 {
@@ -42,5 +43,10 @@
 				/* width: 34%; */
 			}
 		}
+	}
+	.buttons_1 {
+		padding: 1rem;
+		display: flex;
+		gap: 1rem;
 	}
 }
